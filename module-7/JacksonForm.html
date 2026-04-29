@@ -1,0 +1,42 @@
+<!--
+Jackson
+04/29/2026
+PHP Form
+Collects and validates user input
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jackson Form</title>
+</head>
+<body>
+
+<h2>User Information Form</h2>
+
+<form action="JacksonResponse.php" method="post">
+
+    Name: <input type="text" name="name"><br><br>
+
+    Email: <input type="email" name="email"><br><br>
+
+    Age: <input type="number" name="age"><br><br>
+
+    Password: <input type="password" name="password"><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    Favorite Color:
+    <input type="color" name="color"><br><br>
+
+    Comments:<br>
+    <textarea name="comments"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
